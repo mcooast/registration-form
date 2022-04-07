@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="./img/undraw_profile_data_re_v81r.svg">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Register</h1>
+                    </div>
+
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">First Name</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Enter your first name" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Last Name</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Enter your last name" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Type your e-mail" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="phone">Phone</label>
+                        <input id="phone" type="tel" name="phone" placeholder="(xx) xxxxx-xxxx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Password</label>
+                        <input id="password" type="password" name="password" placeholder="Type your password" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Confirm your password</label>
+                        <input id="password" type="confirmPassword" name="password" placeholder="Confirm your password"
+                            required>
+                    </div>
+                </div>
+
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Gender</h6>
+                    </div>
+
+                    <div class="gender-group">
+
+                        <div class="gender-input">
+                            <input type="radio" id="female" name="gender">
+                            <label for="femele">Female</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="female" name="gender">
+                            <label for="male">Male</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="female" name="gender">
+                            <label for="non-binary">Non-Binary</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="other" name="gender">
+                            <label for="other">Other</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="continue-button">
+                    <button><a href="#">Create account</a> </button>
+                </div>
+
+                <div class="account">
+                    <h3>Already have an account?</h3>
+                </div>
+
+                <div class="login-button">
+                    <button><a href="#">Sign in</a></button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
