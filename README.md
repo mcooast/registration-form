@@ -17,7 +17,7 @@ Final result - Mobile version:
 
 <br>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/87499710/163292540-97600745-5c43-4d04-82be-20634162b4a2.gif" width="400px"/>
+<img src="https://user-images.githubusercontent.com/87499710/163292540-97600745-5c43-4d04-82be-20634162b4a2.gif" width="300px"/>
 </div>
 
 
